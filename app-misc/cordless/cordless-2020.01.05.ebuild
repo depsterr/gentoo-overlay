@@ -5,11 +5,11 @@ EAPI=7
 
 DESCRIPTION="A terminal client for discord"
 HOMEPAGE="https://github.com/Bios-Marcel/cordless"
-SRC_URI="https://github.com/Bios-Marcel/${PN}/archive/${PV}.tar.gz"
+SRC_URI="https://github.com/Bios-Marcel/${PN}/archive/2020-01-05.tar.gz"
 
 LICENSE="BSD-3-Clause"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 IUSE=""
 
 DEPEND=""
