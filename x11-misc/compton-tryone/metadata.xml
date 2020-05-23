@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>depsterr@protonmail.com</email>
+	</maintainer>
+		<upstream>
+			<remote-id type="github">tryone144/compton</remote-id>
+			<bugs-to>https://github.com/tryone144/compton/issues</bugs-to>
+			<doc>https://github.com/tryone144/compton/blob/dual_kawase/README.md</doc>
+		</upstream>
+		<longdescription>
+		Compton is a compositor for X, and a fork of xcompmgr-dana.
+
+		This branch includes a new blur method: The multi-pass dual kawase blur! Use it with the --blur-method kawase and --blur-strength LEVEL options. Only works with the glx backend!
+		</longdescription>
+		<use>
+			<flag name="drm">Enable for drm support</flag>
+			<flag name="dbus">Enable for dbus support</flag>
+			<flag name="opengl">Enable for glx support</flag>
+			<flag name="pcre">Enable for pcre support</flag>
+			<flag name="xinerama">Enable for xinerama support</flag>
+		</use>
+</pkgmetadata>
