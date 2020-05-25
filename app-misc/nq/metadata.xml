@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>depsterr@protonmail.com</email>
+	</maintainer>
+		<upstream>
+			<remote-id type="github">leahneukirchen/nq</remote-id>
+			<bugs-to>https://github.com/leahneukirchen/nq/issues</bugs-to>
+			<doc>https://github.com/leahneukirchen/nq/blob/master/README.md</doc>
+		</upstream>
+		<longdescription>
+nq: queue utilities
+These small utilities allow creating very lightweight job queue systems which require no setup, maintenance, supervision, or any long-running processes.
+		</longdescription>
+</pkgmetadata>
